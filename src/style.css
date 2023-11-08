@@ -29,7 +29,7 @@ li:nth-child(odd) {
 article {
     margin: 25px;
 } */
-a:first-child:active {
+/* a:first-child:active {
     color:green;
 }
 a:last-child:active {
@@ -37,6 +37,19 @@ a:last-child:active {
 }
 a {
     font-size: 25px;
+} */
+li::before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    position: absolute;
+    left: -15px;
+    bottom: 4.5px;
+}
+li {
+    list-style-type: none;
+    position: relative;
 }
 @font-face {
     font-family: "Roboto-Black";
