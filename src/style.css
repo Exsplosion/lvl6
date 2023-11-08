@@ -22,12 +22,21 @@ li:last-child {
 li:nth-child(odd) {
     color: red;
 } */
-article:not(.text) {
+/* article:not(.text) {
     color: red;
 
 }
 article {
     margin: 25px;
+} */
+a:first-child:active {
+    color:green;
+}
+a:last-child:active {
+    color: black;
+}
+a {
+    font-size: 25px;
 }
 @font-face {
     font-family: "Roboto-Black";
