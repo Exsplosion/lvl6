@@ -10,6 +10,18 @@ h1::before {
     content: "Hачало!:        ";
     color: red;
 }
+/* li:first-child {
+    color: red;
+}
+li:last-child {
+    color: green;
+} */
+li:nth-child(even) {
+    color: green;
+}
+li:nth-child(odd) {
+    color: red;
+}
 @font-face {
     font-family: "Roboto-Black";
     src: url("Roboto-Black.ttf") format("truetype");
