@@ -1,7 +1,7 @@
 html {
     font-family: "Roboto-Black";
 }
-h1::after {
+/* h1::after {
     content: "  :конец!";
     color: green;
 
@@ -9,7 +9,7 @@ h1::after {
 h1::before {
     content: "Hачало!:        ";
     color: red;
-}
+} */
 /* li:first-child {
     color: red;
 }
@@ -178,7 +178,8 @@ div:last-child {
     left: 640px;
     top: 440px;
     z-index: 2;
-} */section {
+/* } */
+/* section {
     position: relative;
 }
 div:first-child {
@@ -208,7 +209,53 @@ div:last-child {
     height: 2px;
     position: absolute;
     z-index: 1;
+}  */
+section {
+    position: relative;
 }
+div:first-child {
+    border: 5px solid wheat;
+    background-color: white;
+    width: 290px;
+    height: 280px;
+    position: absolute;
+    z-index: 1;
+}
+.per {
+    position: relative;
+    width: 290px;
+    height: 120px;
+
+}
+div:nth-child(2) {
+    width: 290px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.vtr {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+div:last-child {
+    width: 290px;
+    height: 160px;
+    top: 160px;
+    left: 5px;
+    position: absolute;
+    z-index: 3;
+    text-align: center;
+}
+h1 {
+    font-size: 1.1rem;
+}
+h3 {
+    font-size: 0.8rem;
+} 
 @font-face {
     font-family: "Roboto-Black";
     src: url("Roboto-Black.ttf") format("truetype");
