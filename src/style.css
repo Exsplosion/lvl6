@@ -83,12 +83,14 @@ section {
 }
 div:first-child {
     border: 5px solid brown;
+    background-color: brown;
     padding: 25px;
     width: 30px;
     height: 30px;
 }
 div:nth-child(2) {
     border: 5px solid rgb(67, 67, 176);
+    background-color: rgb(67, 67, 176);
     padding: 25px;
     width: 30px;
     height: 30px;
@@ -98,6 +100,7 @@ div:nth-child(2) {
 }
 div:last-child {
     border: 5px solid green;
+    background-color: green;
     padding: 25px;
     width: 30px;
     height: 30px;
