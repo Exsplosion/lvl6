@@ -212,6 +212,8 @@ div:last-child {
 }  */
 section {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 div:first-child {
     border: 5px solid wheat;
@@ -245,7 +247,6 @@ div:last-child {
     width: 290px;
     height: 160px;
     top: 160px;
-    left: 5px;
     position: absolute;
     z-index: 3;
     text-align: center;
