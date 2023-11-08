@@ -38,7 +38,7 @@ a:last-child:active {
 a {
     font-size: 25px;
 } */
-li::before {
+/* li::before {
     content: "";
     height: 10px;
     width: 10px;
@@ -50,6 +50,33 @@ li::before {
 li {
     list-style-type: none;
     position: relative;
+} */
+section {
+    position: relative;
+}
+div:first-child {
+    border: 5px solid brown;
+    padding: 25px;
+    width: 30px;
+    height: 30px;
+}
+div:nth-child(2) {
+    border: 5px solid rgb(67, 67, 176);
+    padding: 25px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+}
+div:last-child {
+    border: 5px solid green;
+    padding: 25px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 240px;
+    top: 200px;
 }
 @font-face {
     font-family: "Roboto-Black";
